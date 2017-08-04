@@ -21,7 +21,7 @@ html { height: 100%;}
 }
 
 #wrapper.toggled {
-  padding-left: 220px;
+  padding-left: 0px;
 }
 
 #sidebar-wrapper {
@@ -170,14 +170,15 @@ html { height: 100%;}
 
 .hamburger {
   position: fixed;
-  top: 85px;  
-  z-index: 999;
+  top: 65px;
+  z-index: 1030;
   display: block;
   width: 32px;
   height: 32px;
-  margin-left: 15px;
-  background: transparent;
+  margin-left: 1234px;
+  background: 0 0;
   border: none;
+
 }
 .hamburger:hover,
 .hamburger:focus,
@@ -333,183 +334,41 @@ hr{
 
 .about-us{
   @include seccion-dos();
+  .title{
+   padding: 45px 0;
+   margin-bottom: 12px;
+ }
+
 }
 
-
-
 .services{
+ @include seccion-tres()
+ .title{
+   padding: 45px 0;
+   margin-bottom: 12px;
+
+ }
+}
+
+.via-lactea{
   font-family: "pompiere",cursive;
   .container-fluid{
-    background-color:#F4F4F4;
-    //position:relative;
+    background-image: url("../img/stat-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+    padding: 80px 0;
+    text-align: center;
   }
-  /*
-  img {
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
-     position: relative;
-     */
-
-
-
-/*
-     .tres {
-      position: relative;
-    }
-
-    .image {
-      opacity: 1;
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      backface-visibility: hidden;
-    }
-
-    .middle {
-      transition: .5s ease;
-      opacity: 0;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%)
-    }
-
-
-
-    .tres:hover .image {
-      opacity: 0.3;
-    }
-
-    .tres:hover .middle {
-      opacity: 1;
-    }
-
-    .text {
-      background-color: #4CAF50;
-      color: white;
-      font-size: 16px;
-      padding: 16px 32px;
-    }
-    */
-
-    .tres {
-      position: relative;
-      .overlay1 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: rgba(10, 16, 16, 0.5);
-        overflow: hidden;
-        width: 100%;
-        height: 0;
-        transition: .5s ease;
-        .text {
-          padding-bottom: 10px;
-          white-space: nowrap; 
-          color: white;
-          font-size: 20px;
-          position: absolute;
-          overflow: hidden;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-        }
-        .image {
-          display: block;
-          width: 100%;
-          height: auto;
-        }
-      }
-
-      &:hover .overlay1 {
-        height: 100%;
-      }
-    }
-    h3, p, {
-      color: white;
-      font-size: 20px;
-    }
-
-    .image {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-    .cuadro_intro_hover{
-      padding: 0px;
-      position: relative;
-      overflow: hidden;
-      height: 200px;
-    }
-    .cuadro_intro_hover:hover .caption{
-      opacity: 1;
-      transform: translateY(-150px);
-      -webkit-transform:translateY(-150px);
-      -moz-transform:translateY(-150px);
-      -ms-transform:translateY(-150px);
-      -o-transform:translateY(-150px);
-    }
-    .cuadro_intro_hover img{
-      z-index: 4;
-    }
-    .cuadro_intro_hover .caption{
-      position: absolute;
-      top:150px;
-      -webkit-transition:all 0.3s ease-in-out;
-      -moz-transition:all 0.3s ease-in-out;
-      -o-transition:all 0.3s ease-in-out;
-      -ms-transition:all 0.3s ease-in-out;
-      transition:all 0.3s ease-in-out;
-      width: 100%;
-    }
-    .cuadro_intro_hover .blur{
-      background-color: rgba(0,0,0,0.7);
-      height: 300px;
-      z-index: 5;
-      position: absolute;
-      width: 100%;
-    }
-    .cuadro_intro_hover .caption-text{
-      z-index: 10;
-      color: #fff;
-      position: absolute;
-      height: 300px;
-      text-align: center;
-      top:-20px;
-      width: 100%;
-    }
-
-    
-
-
+  .titulos{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    text-transform: capitalize;
   }
-
-
-
-  .via-lactea{
-    font-family: "pompiere",cursive;
-    .container-fluid{
-      background-image: url("../img/stat-bg.jpg");
-      background-size: cover;
-      background-attachment: fixed;
-      margin-bottom: 80px;
-      padding: 80px 0;
-      text-align: center;
-    }
-    .titulos{
-      color: #fff;
-      font-size: 22px;
-      font-weight: 400;
-      margin-bottom: 30px;
-      padding-top: 15px;
-      text-transform: capitalize;
-    }
-    .titulos-dos{
-      background-image: url("../pentagono.png")
-    }
+  .titulos-dos{
+    background-image: url("../pentagono.png")
   }
+}

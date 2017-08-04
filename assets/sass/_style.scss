@@ -352,8 +352,14 @@ hr{
     padding-top: 8px;
     padding-bottom: 8px;
     margin-top: 5px;
+
   }
 
+  .navbar-brand{
+   a img{
+    border-radius:30px;
+  }
+}
 }
 .cabecera{
   text-align:center;
@@ -395,6 +401,16 @@ hr{
     padding: 80px 0;
     text-align: center;
   }
+  h3{
+    color:white;
+
+  }
+  h2{
+    position: relative;
+    bottom: 117px;
+    color: white;
+
+  }
   .titulos{
     color: #fff;
     font-size: 22px;
@@ -403,7 +419,6 @@ hr{
     padding-top: 15px;
     text-transform: capitalize;
   }
-  .titulos-dos{
-    background-image: url("../pentagono.png")
-  }
+
+
 }

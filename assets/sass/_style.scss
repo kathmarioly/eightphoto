@@ -337,3 +337,24 @@ hr{
 .services{
   @include seccion-tres();
 }
+
+.via-lactea{
+  font-family: "pompiere",cursive;
+  .container-fluid{
+    background-image: url("../img/stat-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+    padding: 80px 0;
+    text-align: center;
+  }
+  .titulos{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    text-transform: capitalize;
+  }
+
+}

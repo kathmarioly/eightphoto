@@ -295,7 +295,7 @@ html { height: 100%;}
   z-index: 1;
 }
 .navbar-fixed-top {
-  top: 85px;
+  top: 55px;
   border-width: 0 0 1px;
 }
 hr{
@@ -309,4 +309,13 @@ hr{
   padding-top: 0;
   background-color:black;
   color: white;
+
+  .btn-outline{
+    background-color:#288EBC;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 5px;
+  }
+
 }

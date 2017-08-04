@@ -319,3 +319,18 @@ hr{
   }
 
 }
+.cabecera{
+  text-align:center;
+}
+
+.carrusel{
+  position:relative;
+  img{
+    max-width:100%;
+    height:100vh;
+  }
+}
+
+.about-us{
+  @include seccion-dos();
+}

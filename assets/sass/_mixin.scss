@@ -1696,3 +1696,22 @@ html {
 
 	}
 }
+@mixin seccion-tres(){
+	font-family: "pompiere",cursive;
+	.container-fluid{
+		background-color:#F4F4F4;
+
+	}
+	img {
+		height: auto;
+		max-width: 100%;
+		vertical-align: middle;
+	}
+	
+	.post-title {
+		font-family: "pompiere",cursive;
+		font-size: 22px;
+		text-transform: uppercase;
+
+	}
+}

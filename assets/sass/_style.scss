@@ -18,6 +18,27 @@ html { height: 100%;}
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+
+  .cabecera {
+    text-align: left;
+    margin-left:15px;
+    padding: 5px 0 10px;
+    margin-bottom: 5px;
+
+    .uno-parr{
+      color:#9dc100;
+      padding: 1px 0 1px 0;
+      margin: 0;
+      font-size:18px;
+
+    }
+    .uno-sub{
+      color:black;
+      font-size:13px;
+
+    }
+
+  }
 }
 
 #wrapper.toggled {
@@ -180,6 +201,7 @@ html { height: 100%;}
   margin-left: 1234px;
   background: 0 0;
   border: none;
+  padding: 5px 0 10px;
 
 }
 .hamburger:hover,
@@ -310,6 +332,8 @@ html { height: 100%;}
   top: 50px;
   border-width: 0 0 1px;
 }
+
+
 hr{
   margin-top: 0;
   margin-bottom: 0;

@@ -538,7 +538,7 @@ hr{
 }
 
 .last{
-
+  color:#777;
   .container-fluid{
     background-color:#F6F6F6;
   }
@@ -550,8 +550,9 @@ hr{
       font-size:30px;
       padding: 15px 23px;
     }
-    h4:hover{
-
+    p,{
+      text-align:left;
+      padding: 15px 23px;
     }
     form{
       font-family: 'Lato', sans-serif;
@@ -559,4 +560,35 @@ hr{
       padding: 15px 23px;
     }
   }
+  .text-center {
+    text-align: left;
+  }
+  .contac{
+   padding: 15px 23px;
+   a{
+    color:#777;
+  }
 }
+.las-last{
+  .btn{
+    width: 87%;
+    padding: 6px 23px;
+    background-color: #777;
+    color: #fff;
+    border-radius: 33px;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+.btn:hover {
+  background: transparent;
+  color: #9dc100;
+  text-align:left;
+  padding: 6px 23px;
+  text-align:center;
+
+}
+
+
+}
+

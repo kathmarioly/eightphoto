@@ -530,5 +530,33 @@ hr{
      color: black;
      padding: 15px 23px 15px;
    }
+   a:hover{
+     background: transparent;
+     color: #9dc100;
+   }
  }
+}
+
+.last{
+
+  .container-fluid{
+    background-color:#F6F6F6;
+  }
+  .box-last{
+    h4{
+      font-family: "pompiere",cursive;
+      color: black;
+      text-align:left;
+      font-size:30px;
+      padding: 15px 23px;
+    }
+    h4:hover{
+
+    }
+    form{
+      font-family: 'Lato', sans-serif;
+      text-align:left;
+      padding: 15px 23px;
+    }
+  }
 }

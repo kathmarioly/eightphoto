@@ -426,3 +426,25 @@ hr{
 .collage{
   @include seccion-cinco();
 }
+
+
+.photographer{
+  @include seccion-seis();
+  .title{
+    padding: 18px 0;
+    margin-bottom: 12px;
+
+  }
+  .btn{
+    background-color: #9dc100;
+    color:white;
+    border-radius: 18px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+  }
+  .btn:hover {
+    background: transparent;
+    color: #9dc100;
+
+  }
+}
